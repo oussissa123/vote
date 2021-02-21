@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset = "utf-8"/>
+<title>AMAUV VOTE</title>
+
+<link href="css/home.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/other/bootstrap.min.css">
+<link rel="stylesheet" href="css/other/font-awesome.min.css">
+<link rel="stylesheet" href="css/other/nprogress.css">
+<link rel="stylesheet" href="css/other/custom.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+</head>
+
+<body>
+
+	<div class = "cont">
+
+	<div class="container">
+		
+		<div class="row">  
+			<input id="pass" class="form-control"  placeholder="Mot de passe"></input>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<label for="nom" >Nom</label>
+				<input id="nom" class="form-control"  placeholder="Nom du votant"></input>
+			</div>
+
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<label for="prenom" >Prénom</label>
+				<input id="prenom" class="form-control"  placeholder="Prénom"></input>
+			</div>
+
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<label for="telephone" >Téléphone</label>
+				<input id="telephone" class="form-control"  placeholder="Téléphone"></input>
+			</div>
+
+		</div>
+		
+		<div class="row">
+			<button onclick="ajouter_votant()" class="btn btn-primary" style="margin-left:30%; margin-top:0.5em;">Ajouter</button>
+		</div>
+		
+		<div class="row">
+			<label id="message" class="form-control" style="display:none;color: red; text-align:center; font-size: 2em;"></label>
+		</div>
+		
+	</div>
+
+</div>
+<script src="js/actions.js"></script>
+</body>
+
+</html>

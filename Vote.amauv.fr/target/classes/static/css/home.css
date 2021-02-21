@@ -1,0 +1,15 @@
+
+body{
+padding: 0.5em;
+}
+
+.cont {
+    /*height: 500px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 100%em;
+}
